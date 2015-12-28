@@ -11,9 +11,12 @@
 	<div class="col-xs-2">
 		<%= link_to root_path, :class => 'logo' do %>
 		<div class="circle">
+      <br />
+      L
 		  <br />
+      O
 		  <br />
-		  L O L
+		  L
 		  <br />
 		</div>
 		<% end %>
@@ -37,8 +40,8 @@
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying, :label => "What is the saying you want to add?", :placeholder => "Does Santa take potty breaks?" %>
-            <%= f.input :author, :label => "Who is the author of the quote?", :placeholder => 'Jimmy' %>
+            <%= f.input :saying, :label => "What is the quote you want to add?", :placeholder => "Does Santa take potty breaks?" %>
+            <%= f.input :author, :label => "Who is the funny kid (First Name)?", :placeholder => 'Jimmy' %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -67,7 +70,7 @@
   	<div class="col-xs-12 col-sm-6">
   		<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
   	</div>
-  	<div class="col-xs-6 col-sm-6 footer-blurb">
+  	<div class="col-xs-12 col-sm-6 footer-blurb">
   		This app proves that old dogs can learn new tricks.
   	</div>
   </div>

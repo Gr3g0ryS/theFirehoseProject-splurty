@@ -18,6 +18,9 @@ body {
 .clear {
 	clear:both;
 }
+a {
+  color: #f84342;
+}
 .links {
   padding-top: 26px;
 }
@@ -31,7 +34,6 @@ body {
 hr {
   clear: both;
 }
-
 h1 {
   font-family: 'aaarghnormal', sans-serif;
   font-size: 40px;
@@ -93,7 +95,7 @@ header {
 .about {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
-.round {
+.round { /* Sets Images to Circles */
   border-radius: 50%;
 }
 
